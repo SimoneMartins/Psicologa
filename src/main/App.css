@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: white;
+}
+
+html {
+    font-family: 'MuseoModerno', cursive;
+    height: 100%;
+}
+
+body {
+    background-image: url('../media/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.main {
+    border: 2px solid rgba(255,255,255,.9);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.8);
+    width: 80vw;
+    height: 80vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+/* Header */
+
+.meunavbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.logo {
+    font-size: 20px;
+}
+.logo span {
+    font-size: 15px;
+}
+
+.meunavbar a {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.meunavbar a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.meumenu {
+    margin-top: 5px;
+}
+
+.meumenu a {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* End Header */
+
+div a p {
+    margin: 0;
+}
+
+.about {
+    padding: 1vw 2vw 1vw 1vw;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    text-align: center;
+    padding: 1vw 2vw 1vw 1vw;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.home .positiva img {
+    width: 200px;
+    opacity: 0.8;
+    filter: brightness(1.2);
+}
+
+.left img {
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.contact {
+    font-size: 30px;
+    text-align: center;
+    margin: 10vh;
+    font-weight: 100;
+}
+
+.about .areas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.about .text2 {
+    padding: 30px;
+    font-style: italic;
+}
+
+.about .areas .tags {
+    justify-content: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 10w;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 10px;
+    font-weight: 700;
+}
+.about .text {
+    
+}
+
+@media only screen and (max-width: 675px) {
+    /* For Tablet: */
+    .meunavbar {
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 7px;
+    }
+    .meumenu a {
+        color: white;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    .contact {
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        margin: 7vh;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    /* For Tablet: */
+    .meunavbar {
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .meumenu a {
+        color: white;
+        font-weight: 100;
+        font-size: 15px;
+        margin: auto;
+        padding: 5px;
+    }
+    .contact .email {
+        font-size: 12px;
+    }
+    .contact .crp {
+        font-size: 17px;
+    }
+
+}
