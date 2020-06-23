@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SimoneMartins/static/css/main.a430623b.chunk.css",
+    "main.js": "/SimoneMartins/static/js/main.e7f47bbe.chunk.js",
+    "main.js.map": "/SimoneMartins/static/js/main.e7f47bbe.chunk.js.map",
+    "runtime-main.js": "/SimoneMartins/static/js/runtime-main.385347aa.js",
+    "runtime-main.js.map": "/SimoneMartins/static/js/runtime-main.385347aa.js.map",
+    "static/css/2.44531351.chunk.css": "/SimoneMartins/static/css/2.44531351.chunk.css",
+    "static/js/2.74a5e024.chunk.js": "/SimoneMartins/static/js/2.74a5e024.chunk.js",
+    "static/js/2.74a5e024.chunk.js.map": "/SimoneMartins/static/js/2.74a5e024.chunk.js.map",
+    "index.html": "/SimoneMartins/index.html",
+    "precache-manifest.1568b507296d5cd1e015c0fac850aa1b.js": "/SimoneMartins/precache-manifest.1568b507296d5cd1e015c0fac850aa1b.js",
+    "service-worker.js": "/SimoneMartins/service-worker.js",
+    "static/css/2.44531351.chunk.css.map": "/SimoneMartins/static/css/2.44531351.chunk.css.map",
+    "static/css/main.a430623b.chunk.css.map": "/SimoneMartins/static/css/main.a430623b.chunk.css.map",
+    "static/js/2.74a5e024.chunk.js.LICENSE.txt": "/SimoneMartins/static/js/2.74a5e024.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/SimoneMartins/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/App.css": "/SimoneMartins/static/media/main.32c5bcf9.jpg",
+    "static/media/tree.png": "/SimoneMartins/static/media/tree.776437b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.385347aa.js",
+    "static/css/2.44531351.chunk.css",
+    "static/js/2.74a5e024.chunk.js",
+    "static/css/main.a430623b.chunk.css",
+    "static/js/main.e7f47bbe.chunk.js"
+  ]
+}
